@@ -7,7 +7,6 @@ const driver = {};
 // }
 
 function updateDriverWithKeyAndValue(driver, k, v) {
-  // Alternate using ES6 Spread operators:
   // return { ...driver, ...{ [key]: value } }
   return Object.assign({}, driver, { [k]: v });
 }
